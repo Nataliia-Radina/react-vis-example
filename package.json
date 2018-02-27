@@ -1,0 +1,19 @@
+{
+  "name": "front-end-developer-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "canned": "^0.3.10",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "react-vis": "^1.8.2"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"canned -p 5000 ./api/\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

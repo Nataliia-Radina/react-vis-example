@@ -1,2 +1,0 @@
-# Front End Developer Assignment
-
